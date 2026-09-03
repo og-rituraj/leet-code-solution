@@ -1,0 +1,19 @@
+# Executables
+*.exe
+*.out
+*.o
+*.obj
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Java
+*.class
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
