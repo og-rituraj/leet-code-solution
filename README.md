@@ -20,4 +20,16 @@ Repository for tracking LeetCode problem solutions, problem descriptions, and ti
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/og-rituraj/leet-code-solution/tree/master/0003-longest-substring-without-repeating-characters) |
+## Array
+|  |
+| ------- |
+| [0004-median-of-two-sorted-arrays](https://github.com/og-rituraj/leet-code-solution/tree/master/0004-median-of-two-sorted-arrays) |
+## Binary Search
+|  |
+| ------- |
+| [0004-median-of-two-sorted-arrays](https://github.com/og-rituraj/leet-code-solution/tree/master/0004-median-of-two-sorted-arrays) |
+## Divide and Conquer
+|  |
+| ------- |
+| [0004-median-of-two-sorted-arrays](https://github.com/og-rituraj/leet-code-solution/tree/master/0004-median-of-two-sorted-arrays) |
 <!---LeetCode Topics End-->
