@@ -38,4 +38,5 @@ Repository for tracking LeetCode problem solutions, problem descriptions, and ti
 |  |
 | ------- |
 | [0007-reverse-integer](https://github.com/og-rituraj/leet-code-solution/tree/master/0007-reverse-integer) |
+| [0009-palindrome-number](https://github.com/og-rituraj/leet-code-solution/tree/master/0009-palindrome-number) |
 <!---LeetCode Topics End-->
