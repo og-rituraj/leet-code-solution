@@ -1,7 +1,7 @@
 class Solution {
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
 
-        // Always perform binary search on the smaller array
+        // Always binary search on the smaller array
         if (nums1.length > nums2.length) {
             return findMedianSortedArrays(nums2, nums1);
         }
@@ -20,44 +20,46 @@ class Solution {
             // Partition nums2
             int partition2 = (m + n + 1) / 2 - partition1;
 
-            // Values around the partitions
-            int left1 = (partition1 == 0)
+            // Left and right values
+            int maxLeft1 = (partition1 == 0)
                     ? Integer.MIN_VALUE
                     : nums1[partition1 - 1];
 
-            int right1 = (partition1 == m)
+            int minRight1 = (partition1 == m)
                     ? Integer.MAX_VALUE
                     : nums1[partition1];
 
-            int left2 = (partition2 == 0)
+            int maxLeft2 = (partition2 == 0)
                     ? Integer.MIN_VALUE
                     : nums2[partition2 - 1];
 
-            int right2 = (partition2 == n)
+            int minRight2 = (partition2 == n)
                     ? Integer.MAX_VALUE
                     : nums2[partition2];
 
             // Correct partition
-            if (left1 <= right2 && left2 <= right1) {
+            if (maxLeft1 <= minRight2 &&
+                maxLeft2 <= minRight1) {
 
-                // Total length is even
+                // Even number of elements
                 if ((m + n) % 2 == 0) {
-                    return (Math.max(left1, left2)
-                            + Math.min(right1, right2)) / 2.0;
+
+                    return (Math.max(maxLeft1, maxLeft2)
+                            + Math.min(minRight1, minRight2)) / 2.0;
                 }
 
-                // Total length is odd
+                // Odd number of elements
                 else {
-                    return Math.max(left1, left2);
+                    return Math.max(maxLeft1, maxLeft2);
                 }
             }
 
-            // Move partition1 to the left
-            else if (left1 > right2) {
+            // Move binary search left
+            else if (maxLeft1 > minRight2) {
                 right = partition1 - 1;
             }
 
-            // Move partition1 to the right
+            // Move binary search right
             else {
                 left = partition1 + 1;
             }
