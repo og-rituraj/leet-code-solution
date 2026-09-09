@@ -11,6 +11,7 @@ Repository for tracking LeetCode problem solutions, problem descriptions, and ti
 ## Hash Table
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/og-rituraj/leet-code-solution/tree/master/0001-two-sum) |
 | [0003-longest-substring-without-repeating-characters](https://github.com/og-rituraj/leet-code-solution/tree/master/0003-longest-substring-without-repeating-characters) |
 ## String
 |  |
@@ -26,6 +27,7 @@ Repository for tracking LeetCode problem solutions, problem descriptions, and ti
 ## Array
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/og-rituraj/leet-code-solution/tree/master/0001-two-sum) |
 | [0004-median-of-two-sorted-arrays](https://github.com/og-rituraj/leet-code-solution/tree/master/0004-median-of-two-sorted-arrays) |
 ## Binary Search
 |  |
