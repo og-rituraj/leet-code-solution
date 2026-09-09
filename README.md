@@ -17,6 +17,7 @@ Repository for tracking LeetCode problem solutions, problem descriptions, and ti
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/og-rituraj/leet-code-solution/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0005-longest-palindromic-substring](https://github.com/og-rituraj/leet-code-solution/tree/master/0005-longest-palindromic-substring) |
 | [0006-zigzag-conversion](https://github.com/og-rituraj/leet-code-solution/tree/master/0006-zigzag-conversion) |
 | [0008-string-to-integer-atoi](https://github.com/og-rituraj/leet-code-solution/tree/master/0008-string-to-integer-atoi) |
 | [0010-regular-expression-matching](https://github.com/og-rituraj/leet-code-solution/tree/master/0010-regular-expression-matching) |
@@ -46,6 +47,7 @@ Repository for tracking LeetCode problem solutions, problem descriptions, and ti
 ## Dynamic Programming
 |  |
 | ------- |
+| [0005-longest-palindromic-substring](https://github.com/og-rituraj/leet-code-solution/tree/master/0005-longest-palindromic-substring) |
 | [0010-regular-expression-matching](https://github.com/og-rituraj/leet-code-solution/tree/master/0010-regular-expression-matching) |
 ## Recursion
 |  |
@@ -56,4 +58,12 @@ Repository for tracking LeetCode problem solutions, problem descriptions, and ti
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/og-rituraj/leet-code-solution/tree/master/0002-add-two-numbers) |
+## Two Pointers
+|  |
+| ------- |
+| [0005-longest-palindromic-substring](https://github.com/og-rituraj/leet-code-solution/tree/master/0005-longest-palindromic-substring) |
+## Manacher
+|  |
+| ------- |
+| [0005-longest-palindromic-substring](https://github.com/og-rituraj/leet-code-solution/tree/master/0005-longest-palindromic-substring) |
 <!---LeetCode Topics End-->
