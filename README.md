@@ -40,6 +40,7 @@ Repository for tracking LeetCode problem solutions, problem descriptions, and ti
 ## Math
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/og-rituraj/leet-code-solution/tree/master/0002-add-two-numbers) |
 | [0007-reverse-integer](https://github.com/og-rituraj/leet-code-solution/tree/master/0007-reverse-integer) |
 | [0009-palindrome-number](https://github.com/og-rituraj/leet-code-solution/tree/master/0009-palindrome-number) |
 ## Dynamic Programming
@@ -49,5 +50,10 @@ Repository for tracking LeetCode problem solutions, problem descriptions, and ti
 ## Recursion
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/og-rituraj/leet-code-solution/tree/master/0002-add-two-numbers) |
 | [0010-regular-expression-matching](https://github.com/og-rituraj/leet-code-solution/tree/master/0010-regular-expression-matching) |
+## Linked List
+|  |
+| ------- |
+| [0002-add-two-numbers](https://github.com/og-rituraj/leet-code-solution/tree/master/0002-add-two-numbers) |
 <!---LeetCode Topics End-->
