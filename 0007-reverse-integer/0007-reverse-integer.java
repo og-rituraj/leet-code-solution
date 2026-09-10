@@ -5,8 +5,8 @@ class Solution {
 
         while (x != 0) {
 
+            // Get the last digit
             int digit = x % 10;
-            x = x / 10;
 
             // Check overflow before multiplying by 10
             if (result > Integer.MAX_VALUE / 10 ||
@@ -19,7 +19,11 @@ class Solution {
                 return 0;
             }
 
+            // Add digit to result
             result = result * 10 + digit;
+
+            // Remove last digit from x
+            x = x / 10;
         }
 
         return result;
