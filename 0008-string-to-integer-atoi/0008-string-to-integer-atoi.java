@@ -27,14 +27,19 @@ class Solution {
 
             int digit = s.charAt(i) - '0';
 
-            // 4. Check overflow before multiplying
+            // 4. Check overflow
             if (result > Integer.MAX_VALUE / 10 ||
                 (result == Integer.MAX_VALUE / 10 && digit > 7)) {
 
-                return sign == 1 ? Integer.MAX_VALUE : Integer.MIN_VALUE;
+                if (sign == 1) {
+                    return Integer.MAX_VALUE;
+                } else {
+                    return Integer.MIN_VALUE;
+                }
             }
 
             result = result * 10 + digit;
+
             i++;
         }
 
