@@ -1,4 +1,4 @@
-class answer {
+class solution {
     public ListNode swapPairs(ListNode head) {
 
         // Dummy node before the head
