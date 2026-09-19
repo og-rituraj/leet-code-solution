@@ -43,6 +43,7 @@ Repository for tracking LeetCode problem solutions, problem descriptions, and ti
 | [0014-longest-common-prefix](https://github.com/og-rituraj/leet-code-solution/tree/master/0014-longest-common-prefix) |
 | [0015-3sum](https://github.com/og-rituraj/leet-code-solution/tree/master/0015-3sum) |
 | [0018-4sum](https://github.com/og-rituraj/leet-code-solution/tree/master/0018-4sum) |
+| [0027-remove-element](https://github.com/og-rituraj/leet-code-solution/tree/master/0027-remove-element) |
 ## Binary Search
 |  |
 | ------- |
@@ -91,6 +92,7 @@ Repository for tracking LeetCode problem solutions, problem descriptions, and ti
 | [0015-3sum](https://github.com/og-rituraj/leet-code-solution/tree/master/0015-3sum) |
 | [0018-4sum](https://github.com/og-rituraj/leet-code-solution/tree/master/0018-4sum) |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/og-rituraj/leet-code-solution/tree/master/0019-remove-nth-node-from-end-of-list) |
+| [0027-remove-element](https://github.com/og-rituraj/leet-code-solution/tree/master/0027-remove-element) |
 ## Manacher
 |  |
 | ------- |
