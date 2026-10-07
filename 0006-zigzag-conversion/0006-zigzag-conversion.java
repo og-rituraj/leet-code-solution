@@ -43,6 +43,6 @@ class Solution {
             result.append(row);
         }
 
-        return answer.toString();
+        return result.toString();
     }
 }
